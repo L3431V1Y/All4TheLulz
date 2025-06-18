@@ -1,5 +1,0 @@
-fastapi
-uvicorn
-selenium
-beautifulsoup4
-python-multipart
